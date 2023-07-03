@@ -41,8 +41,16 @@ main{
   padding-bottom: 5px;
 }
 
+button{
+  font-size: 23px !important;
+}
+
 .sign{
   background-color: #ee9327;
+}
+
+.sign:hover{
+  background-color: #cf7405;
 }
 
 .up{
@@ -50,6 +58,25 @@ main{
   color: #323232;
 }
 
+.up:hover{
+  background-color: #7d7d7d;
+}
+
 .btn-dark{
   background-color: #323232 !important;
+}
+
+.btn-dark:hover{
+  background-color: #4f4f4f !important;
+}
+
+@media screen and (max-width:415px) {
+  body{
+    background-color: #000 !important;
+  }
+
+  section{
+    display: flex;
+    align-items: end;
+  }
 }
