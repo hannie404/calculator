@@ -5,6 +5,14 @@
   color: aliceblue;
 }
 
+body{
+  overflow: hidden;
+}
+
+main{
+  height: 100vh;
+}
+
 .btns, .btn-del, .btn-equal{
   border-radius: 50% !important;
   width: 80px !important;
@@ -12,10 +20,6 @@
   padding: 25px !important;
   margin: 2px;
   border: none;
-}
-
-main{
-  height: 100vh;
 }
 
 .zero{
