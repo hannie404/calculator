@@ -1,9 +1,14 @@
 const screen = document.getElementById("screen");
-const allBtn = document.querySelectorAll(".btn");
+const allBtn = document.querySelectorAll(".btns");
 const delBtn = document.querySelector(".btn-del");
 const equalBtn = document.querySelector(".btn-equal");
 const clearBtn = document.querySelector(".btn-clear");
 const dotBtn = document.querySelector(".dot");
+const percent = document.querySelector(".percent")
+
+// percent.addEventListener("click", function(e){
+//   screen.value *= 0.01;
+// });
 
 allBtn.forEach(function(btn){
   btn.addEventListener("click", function(e){
